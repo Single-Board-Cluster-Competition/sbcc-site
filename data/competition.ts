@@ -6,7 +6,7 @@ export type Competetion = {
 
 }
 
-const dateOfCompetition = new Date(2024, 4, 10);
+const dateOfCompetition = new Date(2025, 4, 10);
 export const competition: Competetion = {
     date: dateOfCompetition,
     title: "SBCC " + dateOfCompetition.getFullYear(),

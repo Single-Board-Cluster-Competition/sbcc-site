@@ -9,7 +9,6 @@ import { link } from "fs";
 export type Benchmarks = {
   title: string,
   desc: string,
-  link: string,
   image: StaticImageData | string,
   bullets: Bullet[],
 }
@@ -17,6 +16,7 @@ export type Benchmarks = {
 type Bullet = {
   title: string,
   desc: string,
+  link: string,
   icon: StaticImageData,
 }
 
@@ -35,6 +35,7 @@ const benchmarks = {
       title: "STREAM",
       desc: "A simple synthetic benchmark program that measures sustainable memory bandwidth (in MB/s) and the corresponding computation rate for simple vector kernels (in MB/s).",
       link: "https://www.cs.virginia.edu/stream/",
+      icon: null,
     },
     {
       title: "D-LLAMA 3 8B",
@@ -51,6 +52,7 @@ const benchmarks = {
     {
       title: "Mystery application",
       desc: "A mystery application that will be revealed at the competition.",
+      link: "",
       icon: Question_mark,
     },
   ],
