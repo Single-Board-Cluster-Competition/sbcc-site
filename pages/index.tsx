@@ -23,14 +23,21 @@ const IndexPage = () => {
             <Hero />
             <SectionTitle
                 title="When and where"
-                pretitle="San Diego, USA">
+                pretitle="San Diego or Austin, USA">
                 Date:<br></br> 
                 April 10th - 12th 2025
                 <br></br><br></br>
-                Place:<br></br>
-                9836 Hopkins Dr, La Jolla, CA 92093
+                San Diego Address: 9836 Hopkins Dr, La Jolla, CA 92093
                 <br></br>
                 University of California, San Diego - SDSC Auditorium
+                <br></br>
+                <br></br>
+                Austin Address: 10100 Burnet Rd, Austin, TX 78758
+                <br></br>
+                University of Texas, Austin
+                <br></br>
+                <br></br>
+                Remote participation is also possible.
             </SectionTitle>
             <SectionTitle
                 pretitle="Rules and Requirements"

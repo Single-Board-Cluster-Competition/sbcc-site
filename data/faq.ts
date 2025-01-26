@@ -5,7 +5,11 @@ type Faq = {
 
 export const faq: Faq[] = [
     {
-        question: "What is the power budget?",
+        question: "What is the budget for the hardware?",
+        answer: "6000 USD MSRP",
+    },
+    {
+        question: "What is the power budget for the cluster?",
         answer: "250 Watt",
     },
     {
