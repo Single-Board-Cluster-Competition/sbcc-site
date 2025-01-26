@@ -23,21 +23,28 @@ const IndexPage = () => {
             <Hero />
             <SectionTitle
                 title="When and where"
-                pretitle="San Diego, USA">
+                pretitle="San Diego or Austin, USA">
                 Date:<br></br> 
-                April 18th - 20th 2024
+                April 10th - 12th 2025
                 <br></br><br></br>
-                Place:<br></br>
-                9836 Hopkins Dr, La Jolla, CA 92093
+                San Diego Address: 9836 Hopkins Dr, La Jolla, CA 92093
                 <br></br>
                 University of California, San Diego - SDSC Auditorium
+                <br></br>
+                <br></br>
+                Austin Address: 10100 Burnet Rd, Austin, TX 78758
+                <br></br>
+                University of Texas, Austin
+                <br></br>
+                <br></br>
+                Remote participation is also possible.
             </SectionTitle>
             <SectionTitle
                 pretitle="Rules and Requirements"
                 title="Cluster Requirements">
                 To ensure a level playing field for all participants, the competition
                 has a few rules and requirements. Participants are not allowed to use
-                Apple M1, M2 and M3 processors, and their clusters must have a minimum of 4
+                Apple M1-M4 processors, and their clusters must have a minimum of 4
                 sockets. MPI is required, and there is a power limit of <Mark>250 watts</Mark> and a
                 cost limit of <Mark>$6,000</Mark>.
             </SectionTitle>

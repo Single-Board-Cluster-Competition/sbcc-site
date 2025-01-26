@@ -1,9 +1,10 @@
 import Dall_E_Image from "../public/img/DALL·E - super fast computers competing.png";
 import HPL_Icon from "../public/img/HPL.ico";
-import HPCG_Icon from "../public/img/HPCG.png";
-import Intel_Icon from "../public/img/intel.png";
+import Hashcat_Icon from "../public/img/Hashcat.ico";
+import Dllama_Icon from "../public/img/d-llama.png";
 import Question_mark from "../public/img/Question_mark.png";
 import { StaticImageData } from "next/image";
+import { link } from "fs";
 
 export type Benchmarks = {
   title: string,
@@ -15,6 +16,7 @@ export type Benchmarks = {
 type Bullet = {
   title: string,
   desc: string,
+  link: string,
   icon: StaticImageData,
 }
 
@@ -26,23 +28,33 @@ const benchmarks = {
     {
       title: "HPL",
       desc: "A Portable Implementation of the High-Performance Linpack Benchmark for Distributed-Memory Computers",
+      link: "https://www.netlib.org/benchmark/hpl/",
       icon: HPL_Icon,
     },
     {
-      title: "HPCG ",
-      desc: "HPCG is intended as a complement to the High Performance LINPACK benchmark. HPCG is designed to exercise computational and data access patterns that more closely match a different and broad set of important applications.",
-      icon: HPCG_Icon,
+      title: "STREAM",
+      desc: "A simple synthetic benchmark program that measures sustainable memory bandwidth (in MB/s) and the corresponding computation rate for simple vector kernels (in MB/s).",
+      link: "https://www.cs.virginia.edu/stream/",
+      icon: null,
     },
     {
-      title: "Intel(R) MPI Benchmarks",
-      desc: "A set of elementary benchmarks that conform to MPI-1, MPI-2, and MPI-3 standard. ",
-      icon: Intel_Icon,
+      title: "D-LLAMA 3 8B",
+      desc: "Tensor parallelism is all you need. Run LLMs on an AI cluster at home using any device.",
+      link: "https://github.com/b4rtaz/distributed-llama",
+      icon: Dllama_Icon,
     },
     {
-        title: "Mystery application",
-        desc: "A mystery application that will be revealed at the competition.",
-        icon: Question_mark,
-      },
+      title: "Hashcat",
+      desc: "We'll give them a few strings and details on some and have them solve as many passwords as possible. More instructions and details released on the 31st of January.",
+      link: "https://hashcat.net/hashcat/",
+      icon: Hashcat_Icon,
+    },
+    {
+      title: "Mystery application",
+      desc: "A mystery application that will be revealed at the competition.",
+      link: "",
+      icon: Question_mark,
+    },
   ],
 };
 

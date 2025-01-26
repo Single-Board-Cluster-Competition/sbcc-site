@@ -26,7 +26,7 @@ export const Logo = () => {
                         className="w-24" />)}
                 <div className="flex flex-col custom-color">
                     <p>SBCC</p>
-                    <p>2024</p>
+                    <p>2025</p>
                 </div>
             </span>
         </span>)
